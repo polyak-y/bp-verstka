@@ -52,6 +52,10 @@ const useStyles = createUseStyles({
             alignItems: 'center',
             marginBottom: 0
         },  
+        
+        '@media(max-width: 500px)': {
+            paddingLeft: 45,
+        },  
     },
     secondLine: {
         display: 'flex',
@@ -73,6 +77,9 @@ const useStyles = createUseStyles({
                 marginBottom: 0,
             }
         },
+        '@media(max-width: 500px)': {
+            paddingLeft: 45,
+        }, 
     },
     wrap: {
         width: 395,
@@ -87,6 +94,14 @@ const useStyles = createUseStyles({
 
         '@media(max-width: 720px)': {
             display: 'block'
+        },
+
+        '@media(max-width: 400px)': {
+            width: 320,
+        },
+
+        '@media(max-width: 370px)': {
+            width: 300,
         },
     },
     containerForIcon: {
@@ -156,6 +171,6 @@ const useStyles = createUseStyles({
             transform: 'translateY(50%)'
         }
     }
-});
+}); 
 
 export default useStyles;

@@ -52,7 +52,7 @@ import useStyles from './style';
                     </Banner>
                     <p className={classes.text}>Возможность реализовать свой проект</p>
                 </div>
-            </div>  
+            </div>
 
             <img className={classes.snowflakeMob} src={snowflakeMob} alt="snowflakeMob" />
         </div>
